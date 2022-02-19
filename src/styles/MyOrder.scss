@@ -6,13 +6,21 @@
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
+	background-color: white;
+	top: 60px;
+	bottom: 0;
+	border-radius: 6px;
+	border: 1px solid var(--very-light-pink);
 }
 .title-container {
 	display: flex;
 }
 .title-container img {
 	transform: rotate(180deg);
-	margin-right: 14px;
+	margin-right: 18px;
+	margin-top: 20px;
+	width: 14px;
+	align-self: flex-start;
 }
 .title {
 	font-size: var(--lg);
